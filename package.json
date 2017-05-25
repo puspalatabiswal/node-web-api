@@ -1,0 +1,19 @@
+{
+  "name": "node-web-api",
+  "version": "1.0.0",
+  "description": "\"this is my 4th nodejs application\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon server.js"
+  },
+  "author": "puspita biswal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "mongoose": "^4.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
